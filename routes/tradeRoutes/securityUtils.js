@@ -33,6 +33,7 @@ function updateSecurityWithTradeType(security, trade) {
   return security;
 }
 
+// if security is not present, create new one with tradeData (request body)
 function getOrCreateSecurity(securities, tradeData) {
   let securityId = Object.keys(securities).find((_) => {
     return (
@@ -54,6 +55,9 @@ function getOrCreateSecurity(securities, tradeData) {
   return securityId;
 }
 
+// While updating the security, check if the securities are different.
+// It is checked by getting current security_type and ticker_symbol and those
+// passed in the request.
 function checkIfSecuritiesAreDifferent(tradeData, updatedTradeData) {
   return (
     tradeData?.security_type == updatedTradeData?.security_type &&
