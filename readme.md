@@ -4,9 +4,12 @@ Hosted Link - https://portfolio-tracking-api.vercel.app/
 
 Postman Collection - https://www.getpostman.com/collections/58ef81faeb0a0a7c6cab
 
-Postman Environment Link - https://drive.google.com/file/d/1XhQmpEeEd_yPymaK0urkihzNGWSiJZ2y/view?usp=share_link
+Postman Environment Link - https://drive.google.com/file/d/1h7InJ7jzjSWapriAAgLEEMnYf1jNcSPS/view?usp=sharing
+
+Recorded Demo link - https://drive.google.com/file/d/1TVWc5RLgx1XUF4HHn27u37rhomXtCepA/view?usp=share_link
 
 Note - "/db/clear" route is there to remove data from all the collections.
+
 
 - This app is hosted on Vercel and by the time you use it, it might be down. So for the first API request it might take some time or we can see "Deployment Error". Once you hit the API again it will be restarted and work again.
 
